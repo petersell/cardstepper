@@ -58,6 +58,7 @@ function left() {
         document.getElementById("right").style.borderColor=gray;
         changeprogressleft("display4", "display3", "4", "3");
     } else if(document.getElementById("csstag").style.display == 'inline') {
+        document.getElementById("right").style.borderColor=background;
         changeprogressleft("csstag", "display4", "5", "4");
     } else if(document.getElementById("end1").style.display == 'inline') {
         document.getElementById("right").style.borderColor=gray;
@@ -74,13 +75,11 @@ function left() {
 function option1() {
     document.getElementById("right").style.borderColor=gray;
     changeprogressright("display4", "csstag", "4", "5")
-    return a=4;
 }
 
 function option2() {
     document.getElementById("right").style.borderColor=gray;
     changeprogressright("display4", "cssfile", "4", "5")
-    return a=6;
 }
 
 function trueforce1() {
