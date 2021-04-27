@@ -1,0 +1,16 @@
++++ Attribute erklärt
+-a linkcss // Standardmäßig werden die CSS-Klasen in die HTML-Seite integriert. Dieses Attribut kopiert die Stylesheets in eine Extra-Datei in das Ausgabeverzeichnis.
+-a allow-uri-read // Die Bilddateien müssen vom adoc-Verzeichnis ins html-Verzeichnis kopiert werden und erhalten eine relative URL in den HTML-Dateien.
+
++++ Updating Asciidoctor
+$ gem update asciidoctor
+
++++ PDF Jobikado Businessplan 
+// PDF rot Weissensee 
+asciidoctor-pdf --trace -D C:\Users\Andreas\Documents\com.cardstepper\documentation\output C:\Users\Andreas\Documents\com.cardstepper\documentation\cardstepper.adoc
+
+// HTML rot Weissensee
+asciidoctor -a linkcss -a allow-uri-read -v -a stylesheet=css\cardstepper.css --trace -D C:\Users\Andreas\Documents\com.cardstepper\documentation\output\html C:\Users\Andreas\Documents\com.cardstepper\documentation\cardstepper.adoc
+
+## Farben
+Jobikado Roter Farbton: RGB 230, 0, 70 oder #E60046
