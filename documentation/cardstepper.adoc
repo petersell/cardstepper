@@ -1,9 +1,9 @@
-= Schritt für Schritt zum Ziel: Konzept
+= Card für Card zum Ziel: Konzept
 Andreas Petersell, Johann Petersell
 :revnumber: 0.1
-:revdate: 24.04.2021
-:description: Ein Portal für Handlungsanleitungen fürs Mobilgerät.
-:organization: Cardstepper
+:revdate: 29.04.2021
+:description: Ein Portal für mobile Handlungsanleitungen.
+:organization: cardstepper.com
 :pdf-theme: default
 :icons: font
 :sectanchors:
@@ -46,28 +46,28 @@ TIP: Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende imm
 . Cardstepper richtet sich an *Anwender*, die mit Hilfe der App Ziele bequem erreichen wollen.
 . Cardstepper richtet sich an *Redakteure, Lehrer, Autoren, Köche* uvm., die mit Hilfe des Portals ihr Wissen, wie man am einfachsten zum Ziel kommt, mitteilen möchten.
 
-== Produkt
+=== Produkt
 
 Das Produkt Cardstepper besteht im Wesentlichen
 
-. aus der App für mobile Endgeräte zur Anzeige und
-. der Editor-Anwendung zum Erstellen und Editieren der Cardstepper-Themen.
+. aus der *App* für mobile Endgeräte zur Anzeige und
+. der *Editor-Anwendung* zum Erstellen und Editieren der Cardstepper-Themen.
 
-=== Begriffe
+== Konzept
 
-==== Navigation
+=== Navigation
 
-Dem bestimmten Ziel, das ein Nutzer erreichen will, ist ein Navigation vorgeschaltet. Durch scrollen und antippen wählt der Nutzer das Sachgebiet, dem das Ziel zugehörig ist.
+Dem bestimmten Ziel, das ein Nutzer erreichen will, ist ein Navigation vorgeschaltet. Durch Scrollen und Antippen wählt der Nutzer das Sachgebiet, dem das Ziel zugehörig ist.
 
 .Begriffe 1
 image::cs-begriffe-01.jpg[align=left]
 
-Thema:: Schritt 1. Navigation auf der 1. Ebene. Die Gesamtheit aller Sachgebiete. Action: scrollen.
-Sachgebiet:: Innerhalb eines Themas befindlich. Es enthält das Ziel, das der Nutzer erreichen möchte. Action: anklicken/antippen
-Ziele:: Schritt 2. Navigation auf der 2. Ebene. Die Gesamtheit aller Ziele. Action: scrollen.
-Ziel:: Führt den Nuter auf den Pfad zur ersten Card. Dies kann ein Prozeß, ein Troubleshooting, eine Aufgabe oder eine Unterrichtsplanung sein.
+Topic (Thema):: Schritt 1. Navigation auf der 1. Ebene. Die Gesamtheit aller Sachgebiete. Action: scrollen.
+Subject (Sachgebiet):: Innerhalb eines Themas befindlich. Es enthält das Ziel, das der Nutzer erreichen möchte. Action: anklicken/antippen
+Goals (Ziele):: Schritt 2. Navigation auf der 2. Ebene. Die Gesamtheit aller Ziele. Action: scrollen.
+Goal (Ziel):: Führt den Nutzer auf den Pfad zur ersten Card. Dies kann ein Prozeß, ein Troubleshooting, eine Aufgabe oder eine Unterrichtsplanung sein. Action: anklicken/antippen
 
-==== Cards
+=== Cards
 
 Cards sind die Schritte auf dem Pfad. Der Nutzer wischt nach links, um zum nächsten Schritt zu gelangen. Cards können von verschiedener Art sein: Task, Taskpool, Contribution und Branch.
 
@@ -75,22 +75,16 @@ Cards sind die Schritte auf dem Pfad. Der Nutzer wischt nach links, um zum näch
 image::cs-begriffe-02.jpg[align=left]
 
 Task:: Schritt auf dem Pfad. Eine Task hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen. Eine Task kann optional eine Voraussetzung (prerequisite) enthalten sowie mehrere Teilschritte.
-Branch:: Schritt auf dem Pfad. Ein Branch (Verzweigung) enthält mindestens zwei Optionen, zwischen denen sich der Nutzer durch Antippen entscheiden muss. Die Wahl der Option bestimmt den Verlauf des nun folgenden Pfades.
+Branch (Verzweigung):: Schritt auf dem Pfad. Ein Branch enthält mindestens zwei Optionen, zwischen denen sich der Nutzer durch Antippen entscheiden muss. Die Wahl der Option bestimmt den Verlauf des nun folgenden Pfades.
 
-Contribution:: Schritt auf dem Pfad. Sie kommt immer dann zum Einsatz, wenn eine Aufgabe von jemand anderen erledigt werden muss. Eine Contribution (Zuarbeit) hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen.
+Contribution (Zuarbeit):: Schritt auf dem Pfad. Sie kommt immer dann zum Einsatz, wenn eine Aufgabe von jemand anderen erledigt werden muss. Eine Contribution hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen.
 Taskpool:: Schritt auf dem Pfad. Ein Taskpool enthält mindestens zwei Tasks zur Auswahl, bei denen die Reihenfolge der Abarbeitung völlig egal ist. Durch Antippen einer Task innerhalb des Pools wird die gewählte Task dem Pool vorangestellt und muss zuerst abgearbeitet werden. Danach wird wieder eine Task im Pool angetippt, bis der Pool leer ist verschindet. 
 
 == Gründerteam
 
 Die Gründer sind es gewohnt, im Team beharrlich und zielorientiert auf die Auslieferung eines Stücks Software hinzuarbeiten. Seit April 2021 entwickeln die beiden Gründer das Konzept für cardstepper.com - das Portal zum Erreichen von Zielen.
 
-=== Andreas Petersell (Chief Executive Officer)
+=== Andreas Petersell
 
 Andreas Petersell (54) ist der Schöpfer der Geschäftsidee. Er hat an der Humboldt-Universität Germanistik und Anglistik auf Lehramt studiert. Er arbeitete mehrere Jahre als Technischer Redakteur und Dozent. Erklärungsbedürftige Zusammenhänge zu kommunizieren und erfahrbar zu machen, ist seine große Leidenschaft. Als Innovationmanager lernte er, überall die Möglichkeiten zu entdecken, in dem er Erfolgreiches aus einer Branche mit Anpassungen in andere Branchen adaptierte oder Ideen aus verschiedenen Zusammenhängen miteinander verknüpfte. Er bedient als Technischer Redakteur im Single-Source Publishing und als Informationsarchitekt eine Schnittstelle zwischen Technologie, Strukturierung und sprachlichem Ausdruck.
 indexterm:[Gründer,Andreas Petersell]
-
-=== Schließen von Lücken
-
-Aus den obigen Kompetenzen der beiden Gründer ergeben sich Lücken in einigen wichtigen Bereichen der Unternehmensführung. Es ist der Besuch von IHK-Kursen zu Themen wie Geschäftsführung (GF) und Finanzcontrolling geplant.
-
-Die Beauftragung eines Steuerberaters und eines externen Personalbüros werden Lücken abmindern. 

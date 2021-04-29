@@ -5,19 +5,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="description" content="Ein Portal für Handlungsanleitungen fürs Mobilgerät.">
+<meta name="description" content="Ein Portal für mobile Handlungsanleitungen.">
 <meta name="author" content="Andreas Petersell, Johann Petersell">
-<title>Schritt für Schritt zum Ziel: Konzept</title>
+<title>Card für Card zum Ziel: Konzept</title>
 <link rel="stylesheet" href="./css/cardstepper.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
-<h1>Schritt für Schritt zum Ziel: Konzept</h1>
+<h1>Card für Card zum Ziel: Konzept</h1>
 <div class="details">
 <span id="author" class="author">Andreas Petersell, Johann Petersell</span><br>
 <span id="revnumber">version 0.1,</span>
-<span id="revdate">24.04.2021</span>
+<span id="revdate">29.04.2021</span>
 </div>
 </div>
 <div id="content">
@@ -29,17 +29,18 @@
 <li><a href="#_zusammenfassung">Zusammenfassung</a>
 <ul class="sectlevel2">
 <li><a href="#_zwei_zielgruppen">Zwei Zielgruppen</a></li>
+<li><a href="#_produkt">Produkt</a></li>
 </ul>
 </li>
-<li><a href="#_produkt">Produkt</a>
+<li><a href="#_konzept">Konzept</a>
 <ul class="sectlevel2">
-<li><a href="#_begriffe">Begriffe</a></li>
+<li><a href="#_navigation">Navigation</a></li>
+<li><a href="#_cards">Cards</a></li>
 </ul>
 </li>
 <li><a href="#_gründerteam">Gründerteam</a>
 <ul class="sectlevel2">
-<li><a href="#_andreas_petersell_chief_executive_officer">Andreas Petersell (Chief Executive Officer)</a></li>
-<li><a href="#_schließen_von_lücken">Schließen von Lücken</a></li>
+<li><a href="#_andreas_petersell">Andreas Petersell</a></li>
 </ul>
 </li>
 </ul>
@@ -98,64 +99,89 @@ Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende immer ge
 </ol>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_produkt"><a class="anchor" href="#_produkt"></a>Produkt</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_produkt"><a class="anchor" href="#_produkt"></a>Produkt</h3>
 <div class="paragraph">
 <p>Das Produkt Cardstepper besteht im Wesentlichen</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>aus der App für mobile Endgeräte zur Anzeige und</p>
+<p>aus der <strong>App</strong> für mobile Endgeräte zur Anzeige und</p>
 </li>
 <li>
-<p>der Editor-Anwendung zum Erstellen und Editieren der Cardstepper-Themen.</p>
+<p>der <strong>Editor-Anwendung</strong> zum Erstellen und Editieren der Cardstepper-Themen.</p>
 </li>
 </ol>
 </div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_konzept"><a class="anchor" href="#_konzept"></a>Konzept</h2>
+<div class="sectionbody">
 <div class="sect2">
-<h3 id="_begriffe"><a class="anchor" href="#_begriffe"></a>Begriffe</h3>
+<h3 id="_navigation"><a class="anchor" href="#_navigation"></a>Navigation</h3>
+<div class="paragraph">
+<p>Dem bestimmten Ziel, das ein Nutzer erreichen will, ist ein Navigation vorgeschaltet. Durch Scrollen und Antippen wählt der Nutzer das Sachgebiet, dem das Ziel zugehörig ist.</p>
+</div>
 <div class="imageblock text-left">
 <div class="content">
 <img src="images/cs-begriffe-01.jpg" alt="cs begriffe 01">
 </div>
 <div class="title">Abb. 1. Begriffe 1</div>
 </div>
-<div class="sect3">
-<h4 id="_navigation"><a class="anchor" href="#_navigation"></a>Navigation</h4>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Topic (Thema)</dt>
+<dd>
+<p>Schritt 1. Navigation auf der 1. Ebene. Die Gesamtheit aller Sachgebiete. Action: scrollen.</p>
+</dd>
+<dt class="hdlist1">Subject (Sachgebiet)</dt>
+<dd>
+<p>Innerhalb eines Themas befindlich. Es enthält das Ziel, das der Nutzer erreichen möchte. Action: anklicken/antippen</p>
+</dd>
+<dt class="hdlist1">Goals (Ziele)</dt>
+<dd>
+<p>Schritt 2. Navigation auf der 2. Ebene. Die Gesamtheit aller Ziele. Action: scrollen.</p>
+</dd>
+<dt class="hdlist1">Goal (Ziel)</dt>
+<dd>
+<p>Führt den Nutzer auf den Pfad zur ersten Card. Dies kann ein Prozeß, ein Troubleshooting, eine Aufgabe oder eine Unterrichtsplanung sein. Action: anklicken/antippen</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cards"><a class="anchor" href="#_cards"></a>Cards</h3>
+<div class="paragraph">
+<p>Cards sind die Schritte auf dem Pfad. Der Nutzer wischt nach links, um zum nächsten Schritt zu gelangen. Cards können von verschiedener Art sein: Task, Taskpool, Contribution und Branch.</p>
+</div>
 <div class="imageblock text-left">
 <div class="content">
 <img src="images/cs-begriffe-02.jpg" alt="cs begriffe 02">
 </div>
 <div class="title">Abb. 2. Begriffe 2</div>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_contribution"><a class="anchor" href="#_contribution"></a>Contribution</h4>
-<div class="paragraph">
-<p>Da die Unternehmen dringend Fachkräfte benötigen, suchen sie diese nicht mehr nur auf dem freien Arbeitsmarkt, sondern auch in der Mitarbeiterschaft fremder Unternehmen. Der gesamte Arbeitsmarkt ist zu einem "War of Talents" entbrannt. Die Spieler bedienen sich gegenseitig munter im Stäbchenbündel des anderen.</p>
-</div>
-<div class="imageblock text-left">
-<div class="content">
-<img src="images/staebchenbund2.png" alt="staebchenbund2">
-</div>
-<div class="title">Abb. 3. Täglich äußere Einflüsse</div>
-</div>
-<div class="paragraph">
-<p>Jedes Unternehmen sollte in zufriedene Mitarbeiter investieren. Ist die Mitarbeiterbindung gering, ist auch der Schutz vor fremden Spielzügen gering. Im Ernstfall werden so viele Mikadostäbchen gezogen, dass die einst stabile Struktur zerfällt.</p>
-</div>
-<div class="imageblock text-left">
-<div class="content">
-<img src="images/staebchenbund3.png" alt="staebchenbund3">
-</div>
-<div class="title">Abb. 4. Ernstfall</div>
-</div>
-<div class="paragraph">
-<p>Der Name Jobikado leitet sich von einer großen Gefahr ab: kündigen zu viele Fachkräfte zur gleichen Zeit, ist es nicht mehr möglich, jahrelang erworbene Erfahrung weiterzugeben. Das Unternehmen kollabiert, ähnlich wie beim Mikado. Entzieht man dem Wirrwar zugleich zu viele Stäbchen, fällt alles in sich zusammen.</p>
-</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Task</dt>
+<dd>
+<p>Schritt auf dem Pfad. Eine Task hat standardmäßig den Status <em>nicht erledigt</em> und kann durch Wischen den Status <em>erledigt</em> annehmen. Eine Task kann optional eine Voraussetzung (prerequisite) enthalten sowie mehrere Teilschritte.</p>
+</dd>
+<dt class="hdlist1">Branch (Verzweigung)</dt>
+<dd>
+<p>Schritt auf dem Pfad. Ein Branch enthält mindestens zwei Optionen, zwischen denen sich der Nutzer durch Antippen entscheiden muss. Die Wahl der Option bestimmt den Verlauf des nun folgenden Pfades.</p>
+</dd>
+<dt class="hdlist1">Contribution (Zuarbeit)</dt>
+<dd>
+<p>Schritt auf dem Pfad. Sie kommt immer dann zum Einsatz, wenn eine Aufgabe von jemand anderen erledigt werden muss. Eine Contribution hat standardmäßig den Status <em>nicht erledigt</em> und kann durch Wischen den Status <em>erledigt</em> annehmen.</p>
+</dd>
+<dt class="hdlist1">Taskpool</dt>
+<dd>
+<p>Schritt auf dem Pfad. Ein Taskpool enthält mindestens zwei Tasks zur Auswahl, bei denen die Reihenfolge der Abarbeitung völlig egal ist. Durch Antippen einer Task innerhalb des Pools wird die gewählte Task dem Pool vorangestellt und muss zuerst abgearbeitet werden. Danach wird wieder eine Task im Pool angetippt, bis der Pool leer ist verschindet.</p>
+</dd>
+</dl>
 </div>
 </div>
 </div>
@@ -167,22 +193,10 @@ Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende immer ge
 <p>Die Gründer sind es gewohnt, im Team beharrlich und zielorientiert auf die Auslieferung eines Stücks Software hinzuarbeiten. Seit April 2021 entwickeln die beiden Gründer das Konzept für cardstepper.com - das Portal zum Erreichen von Zielen.</p>
 </div>
 <div class="sect2">
-<h3 id="_andreas_petersell_chief_executive_officer"><a class="anchor" href="#_andreas_petersell_chief_executive_officer"></a>Andreas Petersell (Chief Executive Officer)</h3>
+<h3 id="_andreas_petersell"><a class="anchor" href="#_andreas_petersell"></a>Andreas Petersell</h3>
 <div class="paragraph">
-<p>Andreas Petersell (53) ist der Schöpfer der Geschäftsidee. Als Innovationmanager erkannte er, dass mit Zunahme von neuen Kollegen die Innovationskraft der Firma stark schwand. Ja, dass sogar der Fortbestand der Firma durch den massiven, zeitgleichen Fortgang von Fachkräften gefährdet war. Als er sich selbst auf Stellenangebote anderer Firmen bewarb, merkte er, wieviel Zeit, Kraft und Selbstzweifel er für einen ungewissen Ausgang investierte. Er entdeckte nicht nur seine immer noch große Bindung an die Firma, sondern auch die Jobikado-Weiche.</p>
-</div>
-<div class="paragraph">
-<p>Andreas Petersell hat an der Humboldt-Universität Germanistik und Anglistik auf Lehramt studiert. Er arbeitete mehrere Jahre als Technischer Redakteur und Dozent. Erklärungsbedürftige Zusammenhänge zu kommunizieren und erfahrbar zu machen, ist seine große Leidenschaft. Als Innovationmanager lernte er, überall die Möglichkeiten zu entdecken, in dem er Erfolgreiches aus einer Branche mit Anpassungen in andere Branchen adaptierte oder Ideen aus verschiedenen Zusammenhängen miteinander verknüpfte. Er bedient als Technischer Redakteur im Single-Source Publishing und als Informationsarchitekt eine Schnittstelle zwischen Technologie, Strukturierung und sprachlichem Ausdruck.
+<p>Andreas Petersell (54) ist der Schöpfer der Geschäftsidee. Er hat an der Humboldt-Universität Germanistik und Anglistik auf Lehramt studiert. Er arbeitete mehrere Jahre als Technischer Redakteur und Dozent. Erklärungsbedürftige Zusammenhänge zu kommunizieren und erfahrbar zu machen, ist seine große Leidenschaft. Als Innovationmanager lernte er, überall die Möglichkeiten zu entdecken, in dem er Erfolgreiches aus einer Branche mit Anpassungen in andere Branchen adaptierte oder Ideen aus verschiedenen Zusammenhängen miteinander verknüpfte. Er bedient als Technischer Redakteur im Single-Source Publishing und als Informationsarchitekt eine Schnittstelle zwischen Technologie, Strukturierung und sprachlichem Ausdruck.
 </p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_schließen_von_lücken"><a class="anchor" href="#_schließen_von_lücken"></a>Schließen von Lücken</h3>
-<div class="paragraph">
-<p>Aus den obigen Kompetenzen der beiden Gründer ergeben sich Lücken in einigen wichtigen Bereichen der Unternehmensführung. Es ist der Besuch von IHK-Kursen zu Themen wie Geschäftsführung (GF) und Finanzcontrolling geplant.</p>
-</div>
-<div class="paragraph">
-<p>Die Beauftragung eines Steuerberaters und eines externen Personalbüros werden Lücken abmindern.</p>
 </div>
 </div>
 </div>
@@ -191,7 +205,7 @@ Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende immer ge
 <div id="footer">
 <div id="footer-text">
 Version 0.1<br>
-Last updated 2021-04-28 17:23:05 +0200
+Last updated 2021-04-29 19:34:32 +0200
 </div>
 </div>
 </body>
