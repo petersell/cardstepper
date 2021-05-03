@@ -1,7 +1,7 @@
 = Card für Card zum Ziel: Konzept
 Andreas Petersell, Johann Petersell
-:revnumber: 0.1
-:revdate: 29.04.2021
+:revnumber: 0.2
+:revdate: 03.05.2021
 :description: Ein Portal für mobile Handlungsanleitungen.
 :organization: cardstepper.com
 :pdf-theme: default
@@ -74,9 +74,9 @@ Cards sind die Schritte auf dem Pfad. Der Nutzer wischt nach links, um zum näch
 .Begriffe 2
 image::cs-begriffe-02.jpg[align=left]
 
+Concept:: Der erste Schritt auf dem Pfad. Ein Concept erklärt dem Anwender, warum und wann er den Aufgabenpfad absolvieren sollte. Es ist eine Erläuterung, die motivierende Wirkung hat. Ein Concept hat keinen Status.
 Task:: Schritt auf dem Pfad. Eine Task hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen. Eine Task kann optional eine Voraussetzung (prerequisite) enthalten sowie mehrere Teilschritte.
-Branch (Verzweigung):: Schritt auf dem Pfad. Ein Branch enthält mindestens zwei Optionen, zwischen denen sich der Nutzer durch Antippen entscheiden muss. Die Wahl der Option bestimmt den Verlauf des nun folgenden Pfades.
-
+Branch (Verzweigung):: Schritt auf dem Pfad. Ein Branch enthält mindestens zwei Optionen, zwischen denen sich der Nutzer durch Antippen entscheiden muss. Die Wahl der Option bestimmt den Verlauf des nun folgenden Pfades. Ein Branch enthält keinen Status.
 Contribution (Zuarbeit):: Schritt auf dem Pfad. Sie kommt immer dann zum Einsatz, wenn eine Aufgabe von jemand anderen erledigt werden muss. Eine Contribution hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen.
 Taskpool:: Schritt auf dem Pfad. Ein Taskpool enthält mindestens zwei Tasks zur Auswahl, bei denen die Reihenfolge der Abarbeitung völlig egal ist. Durch Antippen einer Task innerhalb des Pools wird die gewählte Task dem Pool vorangestellt und muss zuerst abgearbeitet werden. Danach wird wieder eine Task im Pool angetippt, bis der Pool leer ist verschindet. 
 
