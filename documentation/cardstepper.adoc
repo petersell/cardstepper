@@ -1,7 +1,7 @@
 = Card für Card zum Ziel: Konzept
 Andreas Petersell, Johann Petersell
 :revnumber: 0.2
-:revdate: 03.05.2021
+:revdate: 07.05.2021
 :description: Ein Portal für mobile Handlungsanleitungen.
 :organization: cardstepper.com
 :pdf-theme: default
@@ -60,7 +60,7 @@ Das Produkt Cardstepper besteht im Wesentlichen
 Dem bestimmten Ziel, das ein Nutzer erreichen will, ist ein Navigation vorgeschaltet. Durch Scrollen und Antippen wählt der Nutzer das Sachgebiet, dem das Ziel zugehörig ist.
 
 .Begriffe 1
-image::cs-begriffe-01.jpg[align=left]
+image::cs-begriffe-01.png[align=left]
 
 Topic (Thema):: Schritt 1. Navigation auf der 1. Ebene. Die Gesamtheit aller Sachgebiete. Action: scrollen.
 Subject (Sachgebiet):: Innerhalb eines Themas befindlich. Es enthält das Ziel, das der Nutzer erreichen möchte. Action: anklicken/antippen
@@ -72,13 +72,18 @@ Goal (Ziel):: Führt den Nutzer auf den Pfad zur ersten Card. Dies kann ein Proz
 Cards sind die Schritte auf dem Pfad. Der Nutzer wischt nach links, um zum nächsten Schritt zu gelangen. Cards können von verschiedener Art sein: Task, Taskpool, Contribution und Branch.
 
 .Begriffe 2
-image::cs-begriffe-02.jpg[align=left]
+image::cs-begriffe-02.png[align=left]
 
 Concept:: Der erste Schritt auf dem Pfad. Ein Concept erklärt dem Anwender, warum und wann er den Aufgabenpfad absolvieren sollte. Es ist eine Erläuterung, die motivierende Wirkung hat. Ein Concept hat keinen Status.
 Task:: Schritt auf dem Pfad. Eine Task hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen. Eine Task kann optional eine Voraussetzung (prerequisite) enthalten sowie mehrere Teilschritte.
 Branch (Verzweigung):: Schritt auf dem Pfad. Ein Branch enthält mindestens zwei Optionen, zwischen denen sich der Nutzer durch Antippen entscheiden muss. Die Wahl der Option bestimmt den Verlauf des nun folgenden Pfades. Ein Branch enthält keinen Status.
 Contribution (Zuarbeit):: Schritt auf dem Pfad. Sie kommt immer dann zum Einsatz, wenn eine Aufgabe von jemand anderen erledigt werden muss. Eine Contribution hat standardmäßig den Status _nicht erledigt_ und kann durch Wischen den Status _erledigt_ annehmen.
-Taskpool:: Schritt auf dem Pfad. Ein Taskpool enthält mindestens zwei Tasks zur Auswahl, bei denen die Reihenfolge der Abarbeitung völlig egal ist. Durch Antippen einer Task innerhalb des Pools wird die gewählte Task dem Pool vorangestellt und muss zuerst abgearbeitet werden. Danach wird wieder eine Task im Pool angetippt, bis der Pool leer ist verschindet. 
+Taskpool:: Schritt auf dem Pfad. Ein Taskpool enthält mindestens zwei Tasks zur Auswahl, bei denen die Reihenfolge der Abarbeitung völlig egal ist. Durch Antippen einer Task innerhalb des Pools wird die gewählte Task dem Pool vorangestellt und muss zuerst abgearbeitet werden. Danach wird wieder eine Task im Pool angetippt, bis der Pool leer ist verschindet.
+
+=== Task
+
+.Taskbestandteile
+image::cs-begriffe-03.png[align=left]
 
 == Gründerteam
 
