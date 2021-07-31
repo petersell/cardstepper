@@ -1,0 +1,80 @@
+// GOAL
+= Asciidoctor auf Windows einrichten: Textdateien als PDF oder HTML-Seite ausgeben
+Andreas Petersell
+:revdate: 31.07.2021
+:description: Das Programm Asciidoctor auf Windows-PCs installieren, um Asciidoc-Textdateien als PDF und HTML-Datei ausgeben zu können.
+:organization: cardstepper.com
+:pdf-theme: default
+:icons: font
+:imagesdir: images
+:doctype: article
+:title-page:
+:title-logo-image: image:jobikado.png[pdfwidth=50%,align=right]
+:toc: macro
+:toclevels: 2
+:toc-title:
+:sectanchors:
+:imagesdir: images
+:test: pass:quotes[[.label.added]#Added:#]
+
+toc::[]
+
+== {concept} Konzept
+
+Sie können mit Hilfe von AsciiDoc einfache Texte schreiben, ähnlich wie Markdown, und sie mit der Software Asciidoctor als PDF oder als HTML-Seite ausgeben. AsciiDoc wurde speziell für die Technische Dokumentation entwickelt und wird in vielen Git-Portalen als Dokumentationsstandard genutzt. Doch auch im privaten Bereich zur Dokumentation von Projekten und ja, auch zur Dokumentation Ihres Lebens, ist AsciiDoc geeignet.
+
+== {task} Ruby installieren
+
+{shortdesc} Asciidoctor ist in der Programmiersprache Ruby geschrieben und benötigt Ruby als Voraussetzung zur Installation und dem Builden von Output.
+
+=== {step} Rubyinstaller für Windows downloaden
+
+Gehen Sie auf https://www.ruby-lang.org/de/downloads/ und laden Sie das stabile Ruby-Paket runter.
+
+=== {step} Installationsroutine folgen
+
+Doppelklicken Sie auf die Datei des Installers und folgen Sie den Hinweisen in der Oberfläche des Installationsprogramms.
+
+https://www.petersell.com/blog/images/asciidoc-asciidoctor-install/rubyinstall2.gif[Siehe Screenshot]
+
+== {task} Asciidoctor installieren
+
+{shortdesc} Nach Installation dieser Software können Sie bereits Textdateien in Asciidoc als HTML-Seiten ausgeben.
+
+=== {step} Kommandozeilenfenster öffnen
+
+Öffnen Sie über das Startmenü von Windows eine Eingabeauforderung.
+
+=== {step} Befehl absetzen
+
+Geben Sie folgenden Befehl ein und drücken Sie [Enter].
+
+----
+$ gem install --http-proxy http://@proxy.<Proxyservername>.<Port> asciidoctor
+----
+
+https://www.petersell.com/blog/images/asciidoc-asciidoctor-install/asciidoctor-install.gif[Siehe Screenshot]
+
+Arbeiten Sie ohne Proxyserver, genügt ein `gem install asciidoctor`.
+
+== {task} Asciidoctor für PDF installieren
+
+=== {step} Befehl absetzen
+
+Geben Sie im Komandozeilenfenster folgenden Befehl ein und drücken Sie [Enter]. Nutzen Sie einen Proxyserver, geben Sie ihn wie oben im Beispiel mit an.
+
+----
+$ gem install asciidoctor-pdf --pre
+----
+
+https://www.petersell.com/blog/images/asciidoc-asciidoctor-install/asciidoctor-pdf.gif[Siehe Screenshot]
+
+== {task} Output erzeugen
+
+=== {step} Befehl absetzen
+
+Sie können nun mit Hilfe von adoc-Dateien  https://asciidoctor.org/docs/user-manual/#html[Output erzeugen]. Angenommen, Ihre Textdatei heißt `mysample.adoc`, geben Sie folgenen Befehl in die das Kommandozeilenfenster ein.
+
+----
+$ asciidoctor mysample.adoc
+----
