@@ -1,0 +1,52 @@
+{
+    "cards" : 4,
+
+    "card0": {
+        "type" : "textonly",
+        "title" : "Introduction",
+        "content" : "Sie können mit Hilfe von AsciiDoc einfache Texte schreiben, ähnlich wie Markdown, und sie mit der Software Asciidoctor als PDF oder als HTML-Seite ausgeben. AsciiDoc wurde speziell für dieTechnische Dokumentation entwickelt und wird in vielen Git-Portalen als Dokumentationsstandard genutzt. Doch auch im privaten Bereich zur Dokumentation von Projekten und ja, auch zur Dokumentation Ihres Lebens, ist AsciiDoc geeignet."
+    },
+
+    "card1": {
+        "type" : "task",
+        "title" : "Ruby installieren",
+        "content" : {
+            "items" : 2,
+            "step0" : "Rubyinstaller für Windows downloaden",
+            "step1" : "Installationsroutine folgen"
+        }
+    },
+
+    "card2": {
+        "type" : "task",
+        "title" : "Asciidoctor installieren",
+        "content" : {
+            "items" : 16,
+            "step0" : "Kommandozeilenfenster öffnen",
+            "step1" : "Befehl absetzen",
+            "step2" : "Test 1",
+            "step3" : "Test 2",
+            "step4" : "Test 1",
+            "step5" : "Test 2",
+            "step6" : "Test 3",
+            "step7" : "Test 4",
+            "step8" : "Test 5",
+            "step9" : "Test 6",
+            "step10" : "Test 7",
+            "step11" : "Test 8",
+            "step12" : "Test 9",
+            "step13" : "Test 9",
+            "step14" : "Test 10",
+            "step15" : "Test 11"
+        }
+    },
+
+    "card3": {
+        "type" : "task",
+        "title" : "Output erzeugen",
+        "content" : {
+            "items" : 1,
+            "step0" : "Befehl absetzen"
+        }
+    }
+}
