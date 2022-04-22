@@ -89,7 +89,6 @@ image::cs-begriffe-03.png[align=left]
 
 Die Gründer sind es gewohnt, im Team beharrlich und zielorientiert auf die Auslieferung eines Stücks Software hinzuarbeiten. Seit April 2021 entwickeln die beiden Gründer das Konzept für cardstepper.com - das Portal zum Erreichen von Zielen.
 
-=== Andreas Petersell
+=== Andreas und Johann
 
-Andreas Petersell (54) ist der Schöpfer der Geschäftsidee. Er hat an der Humboldt-Universität Germanistik und Anglistik auf Lehramt studiert. Er arbeitete mehrere Jahre als Technischer Redakteur und Dozent. Erklärungsbedürftige Zusammenhänge zu kommunizieren und erfahrbar zu machen, ist seine große Leidenschaft. Als Innovationmanager lernte er, überall die Möglichkeiten zu entdecken, in dem er Erfolgreiches aus einer Branche mit Anpassungen in andere Branchen adaptierte oder Ideen aus verschiedenen Zusammenhängen miteinander verknüpfte. Er bedient als Technischer Redakteur im Single-Source Publishing und als Informationsarchitekt eine Schnittstelle zwischen Technologie, Strukturierung und sprachlichem Ausdruck.
-indexterm:[Gründer,Andreas Petersell]
+Erklärungsbedürftige Zusammenhänge zu kommunizieren und erfahrbar zu machen, ist seine große Leidenschaft. Als Innovationmanager lernte er, überall die Möglichkeiten zu entdecken, in dem er Erfolgreiches aus einer Branche mit Anpassungen in andere Branchen adaptierte oder Ideen aus verschiedenen Zusammenhängen miteinander verknüpfte. Andreas bedient als Technischer Redakteur im Single-Source Publishing und als Informationsarchitekt eine Schnittstelle zwischen Technologie, Strukturierung und sprachlichem Ausdruck. https://petersell.dev[Johann] ist ein Programmierer.
