@@ -7,7 +7,3 @@ Er kann durch Wischbewegung zum nächsten Schritt gehen, aber auch zum vorherige
 ## Dokumentation und Konzept
 
 Begriffe, Dokumentation und Erläuterungen [finden sich hier](./documentation/cardstepper.adoc).
-
-## UI-Modell
-
-Ein Beispielprojekt als HTML-Seite [befindet sich hier](https://johannlulw.github.io). Es dient der Veranschaulichung der Konzepte im Browser.
