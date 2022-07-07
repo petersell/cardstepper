@@ -1,7 +1,8 @@
 import React from 'react';
-import {  Alert, Button, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import {  Alert, Button, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 function App() {
+
   const content = require('./content.json')
   var cards = [];  
   for (let i = 0; i < content.cards; i++) {
@@ -28,7 +29,7 @@ function App() {
         for (let j = 0; j < content[`card${i}`].content.items; j++) {
           steps.push(
             <View style={styles.ItemBox} key={j}>
-              <TouchableOpacity onPress={test}>
+              <TouchableOpacity>
                 <Text style={styles.TaskItem}>
                   {content[`card${i}`].content[`step${j}`]}{'\n'}
                 </Text>
@@ -69,24 +70,11 @@ function App() {
 }
 
 function test() {
-  return(
-    alert("Test")
-  );
+  alert("test")
 }
 
 
 const styles = require('./style');
 
+
 export default App;
-
-/*
-
-"type" : "task",
-        "title" : "Asciidoctor installieren",
-        "content" : {
-            "items" : 2,
-            "step0" : "Rubyinstaller für Windows downloaden",
-            "step1" : "Installationsroutine folgen"
-        }
-
-        */
