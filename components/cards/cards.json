@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "Welcome",
+    "author": "cardstepper",
+    "description": "test",
+    "content": [
+      {
+        "type": "textonly",
+        "title": "Welcome to cardstepper!",
+        "content": "this is the thirst card"
+      },
+      {
+        "type": "textonly",
+        "title": "Navigation in the app",
+        "content": "this is the second card"
+      }
+    ]
+  }
+]
