@@ -1,7 +1,7 @@
 = Card für Card zum Ziel: Konzept
 Andreas Petersell, Johann Petersell
-:revnumber: 0.2
-:revdate: 07.05.2021
+:revnumber: 0.3
+:revdate: 15.07.2022
 :description: Ein Portal für mobile Handlungsanleitungen.
 :organization: cardstepper.com
 :pdf-theme: default
@@ -29,9 +29,11 @@ toc::[]
 
 == Zusammenfassung
 
-Der Name _Cardstepper_ leitet sich aus _Card_ und _Step_ ab. Mit Hilfe von Cards auf einem Pfad kann der Hilfesuchende Schritt für Schritt eines Prozeßes abarbeiten und sicher das gestellte Ziel erreichen.
+_Cardstepper_ ist die Handlungsanleitung fürs Handy. Der Anwender sieht immer nur die Karte des aktuellen Schritts auf dem Weg zum Ziel.
 
-Der Anwender sieht immer nur die Card des aktuellen Schritts auf dem Pfad eines Prozesses. Er kann durch Wischbewegung zum nächsten Schritt gehen, aber auch zum vorherigen zurückgehen.
+Der Anwender kann durch Wischbewegung zum nächsten Schritt gehen. Volle Konzentration auf das Jetzt - 100% Ergebnisorientierung.
+
+Der Name _Cardstepper_ leitet sich aus _Card_ und _Step_ ab. Mit Hilfe von Cards auf einem Pfad kann der Hilfesuchende Schritt für Schritt eines Prozeßes abarbeiten und sicher das gestellte Ziel erreichen.
 
 *Sie sind Anwender einer Software oder eines Gerätes?*
 
@@ -41,10 +43,10 @@ TIP: Stellen Sie sich vor, Sie könnten vom Start bis zum Ziel immer genau einen
 
 TIP: Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende immer genau einen Schritt im Stundenablauf auf Ihrem Smartphone sehen? Und wenn Sie ihn absolviert haben, wischen Sie ihn einfach weg und gelangen zum nächsten Schritt!
 
-=== Zwei Zielgruppen
+=== Wissen geben und nehmen
 
-. Cardstepper richtet sich an *Anwender*, die mit Hilfe der App Ziele bequem erreichen wollen.
-. Cardstepper richtet sich an *Redakteure, Lehrer, Autoren, Köche* uvm., die mit Hilfe des Portals ihr Wissen, wie man am einfachsten zum Ziel kommt, mitteilen möchten.
+. Cardstepper richtet sich an *Anwender*, die mit Hilfe der App ein Ziel erreichen wollen.
+. Cardstepper richtet sich an *Redakteure, Lehrer, Autoren, Köche und Experten* uva., die mit Hilfe des Portals ihr Wissen, wie man am einfachsten zum Ziel kommt, mitteilen möchten.
 
 === Produkt
 
@@ -57,7 +59,7 @@ Das Produkt Cardstepper besteht im Wesentlichen
 
 === Navigation
 
-Dem bestimmten Ziel, das ein Nutzer erreichen will, ist ein Navigation vorgeschaltet. Durch Scrollen und Antippen wählt der Nutzer das Sachgebiet, dem das Ziel zugehörig ist.
+Dem Ziel, das ein Nutzer erreichen will, ist eine Navigation vorgeschaltet. Durch Scrollen und Antippen wählt der Nutzer das Sachgebiet, dem das Ziel zugehörig ist.
 
 .Begriffe 1
 image::cs-begriffe-01.png[align=left]

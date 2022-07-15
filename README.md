@@ -1,8 +1,8 @@
-# Cardstepper hrhzrhr
+# Cardstepper
 
-Cardstepper steht für graphisch vereinfachte Handlungsanleitungen im Kartendesign für Mobilgeräte. Der Anwender sieht immer nur die Card des aktuellen Schritts auf dem Pfad eines Prozesses.
+Cardstepper - das ist die Handlungsanleitung fürs Handy. Der Anwender sieht immer nur die Karte des aktuellen Schritts auf dem Weg zum Ziel.
 
-Er kann durch Wischbewegung zum nächsten Schritt gehen, aber auch zum vorherigen zurückgehen.
+Der Anwender kann durch Wischbewegung zum nächsten Schritt gehen. Volle Konzentration auf das Jetzt - 100% Ergebnisorientierung.
 
 ## Dokumentation und Konzept
 
