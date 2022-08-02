@@ -39,9 +39,9 @@ Der Name _Cardstepper_ leitet sich aus _Card_ und _Step_ ab. Mit Hilfe von Cards
 
 TIP: Stellen Sie sich vor, Sie könnten vom Start bis zum Ziel immer genau einen Schritt der Handlungsanleitung auf Ihrem Smartphone sehen? Und wenn Sie ihn gegangen sind, wischen Sie ihn einfach weg und gelangen zum nächsten Schritt!
 
-*Sie sind Lehrer?*
+// *Sie sind Lehrer?*
 
-TIP: Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende immer genau einen Schritt im Stundenablauf auf Ihrem Smartphone sehen? Und wenn Sie ihn absolviert haben, wischen Sie ihn einfach weg und gelangen zum nächsten Schritt!
+// TIP: Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende immer genau einen Schritt im Stundenablauf auf Ihrem Smartphone sehen? Und wenn Sie ihn absolviert haben, wischen Sie ihn einfach weg und gelangen zum nächsten Schritt!
 
 === Wissen geben und nehmen
 
@@ -52,8 +52,8 @@ TIP: Stellen Sie sich vor, Sie könnten im Unterricht vom Start bis zum Ende imm
 
 Das Produkt Cardstepper besteht im Wesentlichen
 
-. aus der *App* für mobile Endgeräte zur Anzeige und
-. der *Editor-Anwendung* zum Erstellen und Editieren der Cardstepper-Themen.
+. zur Anzeige: aus der *App* für mobile Endgeräte und
+. zum Erstellen: der *Editor-Anwendung* der Cardstepper-Themen.
 
 == Konzept
 
