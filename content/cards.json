@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "title": "Welcome",
+    "author": "cardstepper",
+    "description": "test",
+    "content": [
+      {
+        "type": "textonly",
+        "title": "Welcome to cardstepper!",
+        "content": "this is the thirst card"
+      },
+      {
+        "type": "longtask",
+        "title": "Navigation in the CardViewer",
+        "content": [
+          {
+            "title": "Navigation in the CardViewer",
+            "content": "test card 1"
+          },
+          {
+            "title": "Navigation in the CardViewer",
+            "content": "test card 1"
+          },
+          {
+            "title": "Navigation in the CardViewer",
+            "content": "test card 1"
+          },
+          {
+            "title": "Navigation in the CardViewer",
+            "content": "test card 1"
+          },
+          {
+            "title": "",
+            "content": "test card 2"
+          }
+        ]
+      },
+      {
+        "type": "textonly",
+        "title": "3rd card",
+        "content": "this is the thirst card"
+      },
+      {
+        "type": "option",
+        "title": "4th card",
+        "description": "test description",
+        "content": [
+          {
+            "title": "test option 1"
+          },
+          {
+            "title": "test option 2"
+          },
+          {
+            "title": "test option 3"
+          }
+        ]
+      },
+      {
+        "type": "pathOption",
+        "content": [
+          {
+            "type": "textonly",
+            "title": "option 2",
+            "content": "this is the second card"
+          },
+          {
+            "type": "textonly",
+            "title": "option 3",
+            "content": "this is the second card"
+          }
+        ]
+      },
+      {
+        "type": "textonly",
+        "title": "last card",
+        "content": "test"
+      },
+      {
+        "type": "pathOption",
+        "content": [
+          {
+            "type": "textonly",
+            "title": "option 1",
+            "content": "this is the second card"
+          },
+          {
+            "type": "textonly",
+            "title": "option 2",
+            "content": "this is the second card"
+          },
+          {
+            "type": "textonly",
+            "title": "option 3",
+            "content": "this is the second card"
+          }
+        ]
+      }
+    ]
+  }
+]
