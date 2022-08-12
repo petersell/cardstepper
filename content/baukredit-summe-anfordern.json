@@ -1,0 +1,73 @@
+[
+  {
+    "id": 0,
+    "title": "Rechnung vom Baukredit (Ing.de) bezahlen",
+    "author": "Andreas Petersell",
+    "description": "Sie haben Ihren Baukredit bei der ING-Bank. Nachdem Sie eine Rechnung Ihres Hausbauers erhalten haben, veranlassen Sie eine Auszahlung in Rechnungshöhe auf Ihr Giro-Referenzkonto.",
+    "content": [
+      {
+        "type": "textonly",
+        "title": "Rechnung einscannen",
+        "content": "Sie haben von Ihrem Hausbauer eine Rechnung plus dazugehörigen Bautenstandsbericht erhalten. Scannen Sie beide Dokumente ein, so dass beide Dokumente im PDF-Format vorliegen."
+      },
+      {
+        "type": "textonly",
+        "title": "iTAN-Liste bereithalten",
+        "content": "Sie haben von der ING-Bank eine iTAN-Liste erhalten, um jede Transaktion mit einer TAN-Nummer bestätigen zu können. Halten Sie die iTAN-Liste bereit."
+      },
+      {
+        "type": "textonly",
+        "title": "Login-Daten bereithalten",
+        "content": "Sie haben von der ING-Bank Zugangsdaten für Ihr Online-Konto erhalten. Halten Sie diese bereit."
+      },
+      {
+        "type": "longtask",
+        "title": "Einloggen beim Online-Banking",
+        "content": [
+          {
+            "title": "ING-Webseite aufrufen",
+            "content": "Gehen Sie auf die Webseite www.ing.de und klicken Sie auf \"Log-in Banking\", um sich in Ihrem Baukreditkonto einzuloggen."
+          },
+          {
+            "title": "Login-Daten eingeben",
+            "content": "Geben Sie dazu \"Zugangsnummer\" und die \"Internetbanking PIN\" ein."
+          },
+          {
+            "title": "DIBA-Key eingeben",
+            "content": "Geben Sie die vorgegebenen 2 Ziffern Ihres DIBA-Keys ein. Zum Beispiel die 2. und die 4. Ziffer des 6-stelligen DIBA-Keys. Anschließend befinden Sie sich im Startbildschirm Ihres ING-Accounts. In diesem werden Ihre sämtlichen Konten (Finanzierung, Giro, Sparen) angezeigt."
+          }
+        ]
+      },
+      {
+        "type": "textonly",
+        "title": "Baufinanzierungskonto wählen",
+        "content": "Klicken Sie im Bereich \"Finanzierung\" auf \"Baufinanzierung\"."
+      },
+      {
+        "type": "textonly",
+        "title": "Auszahlung öffnen",
+        "content": "Klicken Sie in der oberen Menüleiste auf den Eintrag \"Auszahlung\"."
+      },
+      {
+        "type": "textonly",
+        "title": "Auszahlungsbetrag eingeben",
+        "content": "Geben Sie im Feld \"Auszahlung\" den Wert ein, der sich auf der Rechnung Ihres Hausbauers befindet. Sie können auch einen abweichenden Betrag eingeben."
+      },
+      {
+        "type": "textonly",
+        "title": "Nachweisdokumente anhängen",
+        "content": "Laden Sie im Bereich \"Dokumente\" die Rechnung des Hausbauers und den Bautenstandsbericht hoch und klicken Sie auf \"Weiter\"."
+      },
+      {
+        "type": "textonly",
+        "title": "iTAN eingeben",
+        "content": "Geben Sie im Feld \"iTAN eingeben\" genau die iTAN ein, vor der auf Ihrer iTAN-Liste die angegebene laufende Nummer steht."
+      },
+      {
+        "type": "textonly",
+        "title": "Speichern",
+        "content": "Klicken Sie abschießend auf \"Speichern\" und \"Log-out\". Der Auszahlungsbetrag wird auf Ihr angegebenes Referenzkonto überwiesen. Überweisen anschließend die Summe der Rechnung auf das Konto Ihres Hausbauers."
+      }
+    ]
+  }
+]
