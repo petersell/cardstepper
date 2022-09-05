@@ -1,3 +1,5 @@
+``` ---NICHT AKTUELL--- ``` (Aktuelle Idee unterscheidet sich STARK an hier notierter Idee!)
+
 # Cardstepper
 
 Cardstepper - das ist die Handlungsanleitung fürs Handy. Der Anwender sieht immer nur die Karte des aktuellen Schritts auf dem Weg zum Ziel.
